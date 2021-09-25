@@ -1,0 +1,125 @@
+<!--CPIT-405 - HTML Assignment-->
+<!--Abdullah Alqarni - 1847966-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz page</title>
+    <style>
+        .borderColor:hover {
+            border-width: 5px;
+            border-color: blue;
+        }
+
+        .shape1 {
+            border-bottom-color: black;
+            border-top-color: white;
+            border-right-color: black;
+            border-left-color: white;
+            border-width: 3px;
+        }
+
+        .shape2 {
+            border-bottom-color: black;
+            border-top-color: white;
+            border-right-color: white;
+            border-left-color: black;
+            border-width: 3px;
+        }
+
+        .shape3 {
+            border-bottom-color: white;
+            border-top-color: black;
+            border-right-color: black;
+            border-left-color: white;
+            border-width: 3px;
+        }
+
+        .shape4 {
+            border-bottom-color: white;
+            border-top-color: black;
+            border-right-color: white;
+            border-left-color: black;
+            border-width: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Which one of the following are showing in the image below: </h1>
+    <pre>
+        &ndash; ui Tags
+        &ndash; Merged cells
+        &ndash; Radio Buttons
+        &ndash; sub and sub Tags
+    </pre>
+
+    <p>By Clicking on the image, the region shuld hyperlink (selected) and the correct answer should appear by hovering
+        the mouse on the region.</p>
+    <br>
+    <table border="1" width="50%">
+        <tr>
+            <th class="borderColor shape1">
+                <a title="sub and sub Tags">
+                    <h2>The following Equations is:</h2>
+                    <p>x<sup>1</sup> + x<sup>1</sup> = 2x<sup>1</sup></p>
+                    <p>x*x=x<sup>2</sup></p>
+                </a>
+            </th>
+            <th class="borderColor shape2">
+                <a title="Ui Tags">
+                    <h2>My favorite Drinks:</h2>
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                    </ul>
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <th class="borderColor shape3">
+                <a title="Radio Buttons">
+                    <h2>Look at the following</h2>
+                    <p>please select your gender:</p>
+                    <input type="radio" name="gender">Male <br>
+                    <input type="radio" name="gender">Female <br>
+                    <input type="radio" name="gender">Other
+                    <br>
+                    <p>please select your age:</p>
+                    <input type="radio" name="age">0 - 30 <br>
+                    <input type="radio" name="age">31 -60 <br>
+                    <input type="radio" name="age">61 - 100
+                </a>
+            </th>
+            <th class="borderColor shape4">
+                <a title="Merged cells">
+                    <table border="2" width="100%">
+                        <tr>
+                            <th>Month</th>
+                            <th>Saving</th>
+                            <th>Save for holiday!</th>
+                        </tr>
+                        <tr>
+                            <td>January</td>
+                            <td>100$</td>
+                            <td rowspan="2">100$</td>
+                        </tr>
+                        <tr>
+                            <td>February</td>
+                            <td>80$</td>
+                        </tr>
+                    </table>
+                </a>
+            </th>
+        </tr>
+    </table>
+    <h3><a href="homework_Page.html">Go Back to Homework webpage</a></h3>
+
+</body>
+
+</html>
